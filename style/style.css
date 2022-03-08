@@ -226,7 +226,7 @@ section .title::after {
 }
 
 .about .about-content .left img {
-  height: 400px;
+  height: 460px;
   width: 460px;
   object-fit: cover;
 }
@@ -276,16 +276,19 @@ section .title::after {
 }
 
 .services .title::after {
-  content: "Portfolio";
+  content: "portfolio";
   background: #111;
 }
 
 .d-block {
   margin: auto;
 }
-
-.carousel-indicators {
-  padding-bottom: 40px;
+#carouselExampleIndicators{
+  padding-bottom:50px;
+}
+.desc
+{
+  padding-top: 70px;
 }
 
 /* skills section styling start */
